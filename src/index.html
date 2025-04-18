@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      TERRAEssencias Aceites esenciales y Productos naturales | Principal
+    </title>
+    <meta
+      name="description"
+      content="Este es el sitio web de TERRAEssencias una empresa que produce aceites esenciales terapeúticos y productos naturales"
+    />
+    <meta name="author" content="Carlos Medina" />
+
+    <meta
+      property="og:title"
+      content="TERRAEssencias, essential oils and natural products"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://carlosmedinasullca.github.io/wdd231/project/images/portadalarge.webp"
+    />
+    <meta
+      property="og:url"
+      content="https://carlosmedinasullca.github.io/wdd231/project/index.html"
+    />
+    <meta
+      property="og:description"
+      content="TERRAEssencias is an essential oil and natural products producer since 2016. Our products are manufactured following quality control methods to assure its composition and effectivity."
+    />
+    <meta property="fb:app_id" content="your_app_id" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="TERRAEssencias, essential oils and natural products"
+    />
+    <meta
+      name="twitter:description"
+      content="TERRAEssencias is an essential oil and natural products producer since 2016. Our products are manufactured following quality control methods to assure its composition and effectivity."
+    />
+    <meta
+      name="twitter:image"
+      content="https://carlosmedinasullca.github.io/wdd231/project/images/portadalarge.webp"
+    />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/main.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="/images/logo2.webp" alt="Logo" />
+        <h1>TERRAEssencias</h1>
+      </div>
+      <button id="hamMenu"></button>
+      <nav class="navigation">
+        <a
+          href="index.html"
+          title="Home"
+          id="returnhome"
+          class="current-menu-item"
+          >Home</a
+        >
+        <a href="#" title="About Us" id="aboutPage">About us</a>
+        <a href="products.html" title="Products" id="Products">Our products</a>
+        <a href="#" title="Learn" id="academic">Learn</a>
+        <a href="contact.html" title="Contact Us" id="contactData"
+          >Contact us</a
+        >
+      </nav>
+    </header>
+    <main class="homePage">
+      <div class="first">
+        <h2>Descubre el poder de lo natural</h2>
+        <p>Por un mundo conectado con la naturaleza y vidas enriquecidas por ella</p>
+        <picture>
+          <source
+            srcset="/images/portadalarge.webp"
+            media=" (min-width: 1500px) "
+          />
+          <source
+            srcset="/images/portadamedium.webp"
+            media=" (min-width: 640px) "
+          />
+          <img
+            src="/images/portadasmall.webp"
+            alt="A field of aromathic plants"
+            width="1500"
+            height="750"
+          />
+        </picture>
+      </div>
+    </main>
+    <footer>
+      <div class="social">
+        <p>Let us keep closer</p>
+        <nav class="logo">
+          <a href="https://www.facebook.com/profile.php?id=100086374120619">
+            <img
+              src="/images/face.webp"
+              alt="Facebook logo"
+              loading="lazy"
+            />
+          </a>
+          <a href="https://www.instagram.com/_terraessencias_/">
+            <img
+              src="/images/inta.webp"
+              alt="Instagram logo"
+              loading="lazy"
+            />
+          </a>
+          <a href="">
+            <img
+              src="/images/you.webp"
+              alt="Youtube logo"
+              loading="lazy"
+            />
+          </a>
+          <a href="">
+            <img
+              src="/images/tik.webp"
+              alt="Tiktok logo"
+              loading="lazy"
+            />
+          </a>
+          <a href="">
+            <img
+              src="/images/in.webp"
+              alt="LinkedIn logo"
+              loading="lazy"
+            />
+          </a>
+          <a href="wa.me/59173422187">
+            <img
+              src="/images/wa.webp"
+              alt="Whatsapp logo"
+              loading="lazy"
+            />
+          </a>
+        </nav>
+      </div>
+
+      <div class="productsFoot">
+        <h3>Our products</h3>
+        <a href="#" title="Products">Essential oils</a>
+        <a href="#" title="Products">Carrier oils</a>
+        <a href="#" title="Products">Diffuser</a>
+        <a href="#" title="Products">Accesories</a>
+        <a href="#" title="Products">Natural products</a>
+      </div>
+      <div class="company">
+        <h3>Company</h3>
+        <a href="#" title="About US">About</a>
+        <a href="#" title="Blog">Blog</a>
+        <a href="#" title="Work with us">Work wiht us</a>
+        <a href="#" title="Contact Us">Contact Us</a>
+      </div>
+
+      <div class="foot">
+        <p>&copy;<span id="currentyear"></span> | Carlos Medina | Bolivia</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
